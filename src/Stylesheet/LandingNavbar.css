@@ -1,0 +1,54 @@
+.LPNavMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(180, 177, 177);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.LPNavLinks{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+}
+.Links {
+    text-decoration: none;
+    color: black;
+}
+.LPNavLinks a{
+    text-decoration: none;
+    color: black;
+}
+.LPNavLinks span{
+    
+    border-spacing: 10px 10px;
+    border: 3px solid #00A82D;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.box{
+    padding-left: 20px;
+}
+.LPNavlogo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+.LPNavlogo img{
+    height: 75px;
+    margin-right: 10px;
+}
+.LPNavlogo span{
+    
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}

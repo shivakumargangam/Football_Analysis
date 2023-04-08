@@ -1,0 +1,29 @@
+.title{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: rgb(199, 232, 179);
+    
+}
+
+
+.AboutImg img{
+
+    width: 800px;
+    height: 400px;
+    padding-left: 25%;
+
+}
+.AboutImg{
+    margin-top: 40px;
+    /* margin-bottom: 10px; */
+}
+
+
+.Mapbody{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(127, 121, 121);
+    border: solid 3px black;
+}

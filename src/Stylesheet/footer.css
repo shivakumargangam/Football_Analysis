@@ -1,0 +1,142 @@
+.footerMainDiv {
+  position: relative;
+  /* background: #00A82D; */
+  background: rgba(0, 0, 0, 0.808);
+  width: 100%;
+  /* margin-top: 8%; */
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.footerDisplay1366Div {
+  width: 1366px;
+  box-sizing: border-box;
+  padding: 0 8%;
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/*---------Footer Intro Div---------*/
+.footerIntroDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%;
+}
+.footerIntroDiv img{
+  height: 75px;
+  margin-right: 10px;
+
+
+}
+
+
+
+.footerIntroLogo {
+  width: 180px;
+}
+.footerIntroBody {
+  color: white;
+  font-size: 12px;
+  margin-top: 3%;
+  white-space: pre-line;
+}
+/*---------Footer Links Div---------*/
+.footerLinksDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerLinksSocialDiv {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerLinksSocialDiv img {
+  width: 30px;
+  cursor: pointer;
+}
+.footerLinksCompanyDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+.footerLinkCompany {
+  /* color: #000000; */
+  color: white;
+  font-size: 12px;
+  margin-top: 3%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footerLinkCompany:hover {
+  color: #767676;
+}
+/*---------Footer Contact Div---------*/
+.footerContactDiv {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.footerContactTitle {
+  /* color: rgb(0, 0, 0); */
+  color: white;
+  font-weight: bold;
+}
+.footerContactContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  /* color: #000000; */
+  color: white;
+  font-size: 12px;
+}
+.footerContactContent span {
+  margin-top: 2%;
+}
+a:hover{
+  color: #00A82D;;
+}
+a{
+  color: white
+}
+
+
+
+@media screen and (max-width: 1920px) {
+  .footerDisplay1366Div {
+    width: 1900px;
+  }
+}
+@media screen and (max-width: 1792px) {
+  .footerDisplay1366Div {
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .footerDisplay1366Div {
+    width: 1660px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .footerDisplay1366Div {
+    width: 1420px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .footerDisplay1366Div {
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .footerDisplay1366Div {
+    width: 1070px;
+  }
+}
+
